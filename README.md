@@ -16,3 +16,4 @@ For this challenge, you will need to build a simple webpage.
 
 ### Bonus Requirements
 * Make the page responsive for tablet and mobile
+* Add an interesting hover style for cards when they are moused over

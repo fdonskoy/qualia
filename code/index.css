@@ -2,9 +2,24 @@
             Global
 *******************************/
 
-body {
-  font-family: "Lato";
+html, body {
+  font-family: "Lato", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
+body {
+  min-height: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", Times New Roman, serif;
+}
+
 
 .button {
 
