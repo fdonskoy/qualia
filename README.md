@@ -11,7 +11,7 @@ For this challenge, you will need to build a simple webpage.
 
 ### Notes
 * Try to match the spacing and details from the design as closely as possible.
-* Don't worry about browser compatibility use whatever css techniqes you think best accomplish the designs
+* Don't worry about browser compatibility—use whatever css techniqes you think best accomplish the designs
 * A basic `container` element is included to speed up design and fonts have already been included
 
 ### Bonus Requirements
