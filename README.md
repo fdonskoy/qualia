@@ -9,7 +9,7 @@ For this challenge, you will need to build a simple webpage.
 2) Your task if to create the page shown in `designs/page.png` and `designs/page.psd`
 
 ### Notes
-* If you need to copy and paste text content, you can find it all in `code/copy.txt`
+* If you need to copy and paste text content, you can find it all in [`copy.txt`](https://github.com/qualialabs/fed-challenge/blob/master/copy.txt)
 * Try to match the spacing and details from the design as closely as possible.
 * Don't worry about browser compatibility—use whatever css techniqes you think best accomplish the designs
 * A basic `container` element is included to speed up design and fonts have already been included
