@@ -13,5 +13,4 @@ For this challenge, you will need to build a simple webpage.
 ### Bonus Requirements
 * Make the page responsive for tablet and mobile
 
-
-![Design Thumbnail](https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/thumbnail.jpg)
+[![Designs][https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/thumbnail.jpg]][https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/page.jpg]
