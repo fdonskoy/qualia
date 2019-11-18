@@ -16,5 +16,8 @@ For this challenge, you will need to build a simple webpage.
 * A basic `container` element is included to speed up design and fonts have already been included
 
 ### Bonus Requirements
+
+If you have extra time after completing the basic challenge you can also complete these additional tasks:
+
 * Make the page responsive for tablet and mobile
 * Add an interesting hover style for cards when they are moused over
