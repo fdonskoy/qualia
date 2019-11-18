@@ -12,6 +12,7 @@ For this challenge, you will need to build a simple webpage.
 * If you need to copy and paste text content, you can find it all in [`copy.txt`](https://github.com/qualialabs/fed-challenge/blob/master/copy.txt)
 * Don't worry about being pixel perfect, but try to match the intent of the designs.
 * Ignore browser compatibility—use whatever css techniqes you think best accomplish the designs
+* Image assets are already included [in this folder](https://github.com/qualialabs/fed-challenge/tree/master/code/images)
 * A basic `container` element is included to speed up design and fonts have already been included
 
 ### Bonus Requirements
