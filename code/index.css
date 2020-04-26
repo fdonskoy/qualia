@@ -1,6 +1,9 @@
 /*******************************
             Global
 *******************************/
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   font-family: "Lato", Arial, sans-serif;
@@ -17,14 +20,29 @@ h2,
 h3,
 h4,
 h5 {
+  font-weight: normal;
   font-family: "Merriweather", Times New Roman, serif;
 }
 
 
 .button {
-
+  padding: 10px 15px;
+  background-color: mediumseagreen;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
+.button:hover {
+  cursor: pointer;
+  background-color: limegreen;
+}
+
+.maxWidth {
+  max-width: 100%;
+}
 
 
 /*******************************
@@ -32,15 +50,110 @@ h5 {
 *******************************/
 
 .hero {
+  padding-top: 20px;
+  background-image: linear-gradient(to bottom,  #add8e6 0%,#add8e6 75%,#fff 75%,#fff 100%);
+}
 
+.heroWrapper {
+  display: flex;
+}
+
+.leftHero {
+  width: 50%;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.rightHero {
+  width: 50%;
 }
 
 .page {
 
 }
 
-.footer {
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
 
+.card {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.44);
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.cardHeaderImgWrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.cardHeaderImg {
+  height: 100px;
+}
+
+.cardBody {
+  padding: 10px 30px;
+  height: 150px;
+}
+
+.bottomCTAcards {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 300px;
+}
+
+.divider {
+  border-right: 1px solid lightgray;
+  height: 150px;
+}
+
+.bottomCTAcard {
+  margin: 0;
+  font-size: 24px;
+  height: 75px;
+  width: 300px;
+  text-align: center;
+}
+
+.landscapeBG {
+  background-image: url("images/landscape-bg.png");
+  height: 115px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  background-color: black;
+  color: lightgray;
+  padding: 5px 0 10px 0;
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footerLogo {
+  margin-right: 10px;
+}
+
+.footerText {
+  margin: 0;
 }
 
 
@@ -57,9 +170,14 @@ h5 {
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-
+  .card {
+    width: 45%;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
 }
