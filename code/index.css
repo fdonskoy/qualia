@@ -135,6 +135,9 @@ h5 {
 
 .landscapeBG {
   background-image: url("images/landscape-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
   height: 115px;
   width: 100%;
   position: absolute;
@@ -177,11 +180,6 @@ h5 {
 @media screen and (max-width: 1024px) {
   .card {
     width: 45%;
-  }
-  .landscapeBG {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
   }
 }
 
