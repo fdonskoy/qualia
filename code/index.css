@@ -190,4 +190,28 @@ h5 {
   .card {
     width: 100%;
   }
+
+  .heroWrapper {
+    flex-wrap: wrap;
+  }
+
+  .leftHero, .rightHero {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bottomCTAcards {
+    flex-wrap: wrap;
+  }
+
+  .bottomCTAcard {
+    width: 100%;
+  }
+
+  .divider {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    height: 1px;
+    width: 65%;
+  }
 }
